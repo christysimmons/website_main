@@ -1,0 +1,101 @@
+/*Colors:
+khaki - #D8c99b
+goldenrod - #D8973c
+terra cotta - #BD632f
+pank - #b7245c
+idk dark cadet blue? - #273e47
+
+*/
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #273e47;
+	font-family: "PT Sans", sans-serif;
+}
+
+h1, h2, h3 {
+	color: #b7245c;
+	font-family: "Oswald", sans-serif;
+}
+
+a {
+	font-family: "Oswald", sans-serif;
+	text-decoration: none;
+	color: #D8c99b;
+}
+
+header {
+	height: 100vh;
+	text-align: center;
+}
+
+header h1 {
+	text-transform: lowercase;
+	font-size: calc(1em + 5vw);
+	margin-bottom: -10px;
+}
+
+nav ul{
+	display: inline-block;
+}
+
+nav li{
+	list-style: none;
+}
+
+.nav-li {
+	display: inline;
+	padding: 5px;
+	color: #D8c99b;
+}
+
+.nav-li a:hover{
+	color: #D8973c;
+	transition: color .3s ease-in-out;
+}
+
+#outbound {
+	display: inline-block;
+	float: right;
+	font-size: 1.3em;
+	padding-right: 40px;
+}
+
+.holder{
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+#cv div:nth-child(odd) {
+	background-color: #3c5159;
+}
+
+footer {
+	height: 30px;
+	display: flex;
+	flex-direction: row; 
+	align-items: stretch;
+}
+footer div {
+	width: 20%;
+	flex-basis: fill;
+}
+
+#div-1{
+	background-color:#D8c99b;
+}
+#div-2{
+	background-color:#D8973c;
+}
+#div-3{
+	background-color:#BD632f;
+}
+#div-4{
+	background-color:#b7245c;
+}
+#div-5{
+	text-align: center;
+	font-size: .8em;
+}
