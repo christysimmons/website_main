@@ -18,12 +18,18 @@ body {
 h1, h2, h3 {
 	color: #b7245c;
 	font-family: "Oswald", sans-serif;
+	padding-left: 20px;
 }
 
 a {
 	font-family: "Oswald", sans-serif;
 	text-decoration: none;
 	color: #D8c99b;
+}
+
+a:hover{
+	color: #D8973c;
+	transition: color .3s ease-in-out;
 }
 
 header {
@@ -45,15 +51,14 @@ nav li{
 	list-style: none;
 }
 
+p {
+	padding-left: 5px;
+}
+
 .nav-li {
 	display: inline;
 	padding: 5px;
 	color: #D8c99b;
-}
-
-.nav-li a:hover{
-	color: #D8973c;
-	transition: color .3s ease-in-out;
 }
 
 #outbound {
@@ -68,8 +73,51 @@ nav li{
 	padding-bottom: 10px;
 }
 
+#toolset {
+	text-align: center;
+}
+
+#toolset li {
+	display: inline-block;
+	list-style: none;
+	background-color: #D8973c;
+	padding: 7px;
+	margin: 6px 3px 0 3px;
+	font-size: 1.2em;
+	box-shadow: 1px 1px 3px #121d21;
+}
+
 #cv div:nth-child(odd) {
 	background-color: #3c5159;
+}
+
+#contact-container {
+	width: 55%;
+	margin: auto;
+	font-family: "Oswald", sans-serif;
+	color: #D8c99b;
+}
+
+.contact-form {
+	width: 100%;
+	padding: 7px;
+	margin-bottom: 20px;
+	border: 2px #BD632f solid;
+	background-color: #273e47;
+	-moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+button {
+	width: 100%;
+	padding: 7px;
+	margin: 0;
+	background-color: #BD632f;
+	border: 2px #BD632f solid;
+	box-shadow: 3px 3px 5px #121d21;
+	font-family: "Oswald", sans-serif;
+	font-size: 1.3em;
 }
 
 footer {
@@ -98,4 +146,5 @@ footer div {
 #div-5{
 	text-align: center;
 	font-size: .8em;
+	line-height: 25px;
 }
