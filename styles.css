@@ -73,6 +73,33 @@ p {
 	padding-bottom: 10px;
 }
 
+.blog-post {
+	border: 3px solid #BD632f;
+	width: 75%;
+	margin: auto;
+	padding: 5px;
+	margin-bottom: 12px;
+}
+
+.blog-post img {
+	float: left;
+	padding: 5px;
+}
+
+.blog-post h4 {
+	margin: 3px auto;
+}
+
+.blog-post a {
+	display: inline;
+}
+
+#blog a {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+
 #toolset {
 	text-align: center;
 }
