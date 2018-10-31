@@ -11,13 +11,16 @@
   </script>
 </head>
 <body>
-<form>
-	<input type="text" name="title" required>
-	<input type="text" name="subtitle">
-	<input type="url" name="phtoto url" required>
+	<h1>Write a blog</h1>
+<form id="blog-input">
+	<label for="title">Title</label><input type="text" name="title"required>
+	<label for="subtitle">Sub-title</label><input type="text" name="subtitle">
+	<label for="photo-url">Header Photo Url</label><input type="url" name="phtoto-url" required>
+	<label for="date">Post Date</label><input type="date" name="date" required>
 	<textarea id="maintext">
 		
 	</textarea>
+	<input type="submit" name="Submit" value="submit!">
 </form>
 </body>
 </html>

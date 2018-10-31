@@ -70,6 +70,10 @@ div h4 {
 	margin-right: 5px;
 }
 
+#subtitle{
+	transition: all 1s ease-in-out;
+}
+
 #outbound {
 	display: inline-block;
 	float: right;
@@ -81,6 +85,19 @@ div h4 {
 	margin: auto;
 	padding-bottom: 10px;
 }
+
+#work-carousel li {
+	list-style: none;
+}
+
+#work-carousel li:nth-child(even) {
+	float: right;
+}
+
+#work-carousel img {
+	max-height: 300px;
+}
+
 .employer {
 	border: 3px solid #BD632f;
 	background-color: #D8c99b;
@@ -97,6 +114,15 @@ div h4 {
 	margin: auto;
 	padding: 5px;
 	margin-bottom: 12px;
+}
+
+.white {
+	background-color: white;
+	padding-bottom: 1px;
+	margin-left: 10%;
+	margin-right: 1%;
+	margin-bottom: 3px;
+	box-shadow: 2px 2px 2px gray;
 }
 
 .blog-post img {
@@ -200,4 +226,28 @@ footer div {
 	text-align: center;
 	font-size: .8em;
 	line-height: 25px;
+}
+
+/*Blog form styles*/
+
+#blog-input {
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+	margin: 10% auto;
+	border: 2px solid white;
+	border-radius: 3px;
+}
+
+#blog-input input{
+	margin-bottom: 10px;
+	height: 30px;
+}
+
+#blog-input label {
+	color: white;
+}
+
+#blog-input textarea{
+	height: 500px;
 }
