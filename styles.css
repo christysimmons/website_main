@@ -240,12 +240,14 @@ footer div {
 }
 
 #blog-input input{
-	margin-bottom: 10px;
 	height: 30px;
 }
 
 #blog-input label {
 	color: white;
+	height: 30px;
+	background-color: #BD632f;
+	padding-top: 8px;
 }
 
 #blog-input textarea{
