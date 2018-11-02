@@ -27,7 +27,7 @@ a {
 	color: #D8c99b;
 }
 
-a:hover{
+a:hover {
 	color: #D8973c;
 	transition: color .3s ease-in-out;
 }
@@ -86,8 +86,13 @@ div h4 {
 	padding-bottom: 10px;
 }
 
+#work-carousel {
+	display: flex;
+	justify-content: space-between;
+}
 #work-carousel li {
 	list-style: none;
+	height: 300px;
 }
 
 #work-carousel li:nth-child(even) {
